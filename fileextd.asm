@@ -1,0 +1,6 @@
+.MODEL FLAT
+EXTERN _SetFileInformationByHandle@16:PROC
+PUBLIC __imp__SetFileInformationByHandle@16
+.CONST
+__imp__SetFileInformationByHandle@16 DD _SetFileInformationByHandle@16
+END
